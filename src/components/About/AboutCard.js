@@ -8,33 +8,34 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Abu Syed </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            Hi, I&apos;m <span className="purple">Abu Shaid Islam</span> from{" "}
+            <span className="purple">Bangladesh</span>.
             <br />
-            I am currently employed as a software developer at Juspay.
+            <br />I build modern websites and web applications, focusing on clean
+            UI, performance, and a great user experience.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            <br />I also work with <span className="purple">WordPress</span> for
+            business websites and landing pages, and I design professional
+            interfaces in <span className="purple">Figma</span>.
             <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+            <br />Here are a few things I enjoy working on:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> WordPress websites (themes, customization, content)
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> UI/UX design in Figma (wireframes, prototypes)
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> React & Node.js projects (front-end + APIs)
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Build simple, useful products — and keep improving."{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Abu Shaid Islam</footer>
         </blockquote>
       </Card.Body>
     </Card>
