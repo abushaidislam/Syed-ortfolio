@@ -66,43 +66,7 @@ export const projects = [
     description:
       "ReadOft is a modern, community-driven reading and blogging platform designed to bring readers and writers together in a clean,focused environment.It allows users to discover high-quality articles, follow authors, explore topics, and track their reading progress through a personalized dashboard.With a strong emphasis on usability, performance, and thoughtful UI/UX, ReadOft promotes meaningful content over noise and builds a sustainable knowledge-sharing community.",
     ghLink: "https://github.com/abushaidislam/readoft_9800.git",
-    demolink: "https://readoft-9800.vercel.app/"
-  },
-  {
-    imgPath: my,
-    isBlog: false,
-    title: "ReadOft: Where Readers, Writers & Ideas Connect",
-    description:
-      "ReadOft is a modern, community-driven reading and blogging platform designed to bring readers and writers together in a clean,focused environment.It allows users to discover high-quality articles, follow authors, explore topics, and track their reading progress through a personalized dashboard.With a strong emphasis on usability, performance, and thoughtful UI/UX, ReadOft promotes meaningful content over noise and builds a sustainable knowledge-sharing community.",
-    ghLink: "https://github.com/abushaidislam/readoft_9800.git",
-    demolink: "https://readoft-9800.vercel.app/"
-  },
-  {
-    imgPath: my,
-    isBlog: false,
-    title: "ReadOft: Where Readers, Writers & Ideas Connect",
-    description:
-      "ReadOft is a modern, community-driven reading and blogging platform designed to bring readers and writers together in a clean,focused environment.It allows users to discover high-quality articles, follow authors, explore topics, and track their reading progress through a personalized dashboard.With a strong emphasis on usability, performance, and thoughtful UI/UX, ReadOft promotes meaningful content over noise and builds a sustainable knowledge-sharing community.",
-    ghLink: "https://github.com/abushaidislam/readoft_9800.git",
-    demolink: "https://readoft-9800.vercel.app/"
-  },
-  {
-    imgPath: my,
-    isBlog: false,
-    title: "ReadOft: Where Readers, Writers & Ideas Connect",
-    description:
-      "ReadOft is a modern, community-driven reading and blogging platform designed to bring readers and writers together in a clean,focused environment.It allows users to discover high-quality articles, follow authors, explore topics, and track their reading progress through a personalized dashboard.With a strong emphasis on usability, performance, and thoughtful UI/UX, ReadOft promotes meaningful content over noise and builds a sustainable knowledge-sharing community.",
-    ghLink: "https://github.com/abushaidislam/readoft_9800.git",
-    demolink: "https://readoft-9800.vercel.app/"
-  },{
-    imgPath: my,
-    isBlog: false,
-    title: "ReadOft: Where Readers, Writers & Ideas Connect",
-    description:
-      "ReadOft is a modern, community-driven reading and blogging platform designed to bring readers and writers together in a clean,focused environment.It allows users to discover high-quality articles, follow authors, explore topics, and track their reading progress through a personalized dashboard.With a strong emphasis on usability, performance, and thoughtful UI/UX, ReadOft promotes meaningful content over noise and builds a sustainable knowledge-sharing community.",
-    ghLink: "https://github.com/abushaidislam/readoft_9800.git",
-    demolink: "https://readoft-9800.vercel.app/"
-  }     
-
-
+    demoLink: "https://readoft-9800.vercel.app/",
+    demoLavel: "live site",
+  }
 ];
