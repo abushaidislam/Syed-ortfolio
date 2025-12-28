@@ -942,6 +942,9 @@ button:focus {
 
 .blog-aside {
   display: block;
+  align-self: stretch;
+  min-height: 100%;
+  
 }
 
 .blog-aside-inner {
@@ -951,12 +954,16 @@ button:focus {
   border: 1px solid rgba(255, 255, 255, 0.1);
   background: rgba(255, 255, 255, 0.03);
   padding: 14px 14px;
+  max-height: calc(100vh - 140px);
+  overflow-y: auto;
 }
 
 .blog-toc-title {
+ 
   margin: 0 0 10px;
   font-weight: 800;
   letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .blog-toc-nav {
@@ -1001,6 +1008,7 @@ button:focus {
 .blog-toc-details summary {
   cursor: pointer;
   font-weight: 700;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 @media (max-width: 991px) {

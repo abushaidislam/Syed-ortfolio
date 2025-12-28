@@ -46,7 +46,7 @@ function NavBar() {
       expanded={expand}
       fixed="top"
       expand="md"
-      className={navColour ? "sticky" : "navbar"}
+      className={navColour ? "navbar sticky" : "navbar"}
     >
       <Container>
         <Link href="/" passHref legacyBehavior>
