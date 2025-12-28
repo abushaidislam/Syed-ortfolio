@@ -4,12 +4,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
   const profile = {
@@ -35,13 +29,6 @@ function Home2() {
       instagram: "https://www.instagram.com/abushaidislam",
     },
   };
-
-  const socialLinks = [
-    { href: profile.socials.github, label: "GitHub", Icon: AiFillGithub },
-    { href: profile.socials.twitter, label: "Twitter", Icon: AiOutlineTwitter },
-    { href: profile.socials.linkedin, label: "LinkedIn", Icon: FaLinkedinIn },
-    { href: profile.socials.instagram, label: "Instagram", Icon: AiFillInstagram },
-  ];
 
   return (
     <Container fluid className="home-about-section" id="about">
@@ -145,31 +132,6 @@ function Home2() {
                 style={{ maxWidth: "280px" }}
               />
             </Tilt>
-          </Col>
-        </Row>
-        <Row>
-          <Col md={12} className="home-about-social">
-            <h1 className="mb-2">Let&apos;s connect</h1>
-            <p style={{ marginBottom: "0.75rem" }}>
-              Feel free to reach out for opportunities, collaborations, or a quick
-              chat.
-            </p>
-            <ul className="home-about-social-links">
-              {socialLinks.map(({ href, label, Icon }) => (
-                <li key={label} className="social-icons">
-                  <a
-                    href={href}
-                    target="_blank"
-                    rel="noreferrer"
-                    aria-label={label}
-                    title={label}
-                    className="icon-colour home-social-icons"
-                  >
-                    <Icon />
-                  </a>
-                </li>
-              ))}
-            </ul>
           </Col>
         </Row>
       </Container>

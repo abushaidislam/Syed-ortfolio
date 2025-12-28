@@ -6,6 +6,7 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import TestimonialV2 from "../ui/testimonial-v2";
 
 function Home() {
   return (
@@ -57,6 +58,7 @@ function Home() {
         </Container>
       </Container>
       <Home2 />
+      <TestimonialV2 />
     </section>
   );
 }

@@ -66,6 +66,9 @@ Follow these steps every time you want to publish a new article.
    description: "One-liner for the blog listing card."
    date: "2025-02-10"
    thumbnail: "/blog/my-first-post.jpg"   # path inside /public
+   author: "";
+   categories:
+     - 
    tags:
      - Next.js
      - Tutorial

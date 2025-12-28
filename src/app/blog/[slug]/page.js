@@ -2,6 +2,9 @@ import { compileMDX } from "next-mdx-remote/rsc";
 import rehypeSlug from "rehype-slug";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypePrettyCode from "rehype-pretty-code";
+import rehypeKatex from "rehype-katex";
+import remarkGfm from "remark-gfm";
+import remarkMath from "remark-math";
 import Link from "next/link";
 import Particle from "../../../components/Particle";
 
@@ -21,10 +24,12 @@ export default async function BlogPostPage({ params }) {
     components: mdxComponents,
     options: {
       mdxOptions: {
+        remarkPlugins: [remarkGfm, remarkMath],
         rehypePlugins: [
           rehypeSlug,
           [rehypeAutolinkHeadings, { behavior: "wrap" }],
           [rehypePrettyCode, { theme: "github-dark" }],
+          rehypeKatex,
         ],
       },
     },
