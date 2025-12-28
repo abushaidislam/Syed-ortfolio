@@ -53,6 +53,11 @@ function ResumeNew() {
     link.remove();
   };
 
+  const ownProjects = projects.filter((project) =>
+    (project.ghLink || "").includes("github.com/abushaidislam")
+  );
+  const featuredProjects = (ownProjects.length ? ownProjects : projects).slice(0, 2);
+
   return (
     <Container fluid className="resume-section">
       <Particle />
@@ -225,7 +230,7 @@ function ResumeNew() {
             <section className="resume-block resume-block-right">
               <h2 className="resume-block-title">Featured Projects</h2>
               <div className="resume-featured-projects">
-                {projects.slice(0, 2).map((project) => (
+                {featuredProjects.map((project) => (
                   <div key={project.title} className="resume-featured-item">
                     <ProjectCard {...project} />
                   </div>

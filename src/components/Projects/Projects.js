@@ -7,6 +7,11 @@ import Particle from "../Particle";
 import { projects } from "./projectsData";
 
 function Projects() {
+  const ownProjects = projects.filter((project) =>
+    (project.ghLink || "").includes("github.com/abushaidislam")
+  );
+  const visibleProjects = ownProjects.length ? ownProjects : projects;
+
   return (
     <Container fluid className="project-section">
       <Particle />
@@ -18,7 +23,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          {projects.map((project) => (
+          {visibleProjects.map((project) => (
             <Col key={project.title} md={4} className="project-card">
               <ProjectCard {...project} />
             </Col>
