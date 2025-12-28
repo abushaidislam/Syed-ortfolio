@@ -155,8 +155,23 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  font-family: "Poppins", "Montserrat", "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  color: #f8f8f8;
+  text-transform: uppercase;
+}
+
+.logo-accent {
+  color: #3b82f6;
+}
+
+@media (max-width: 767px) {
+  .logo {
+    font-size: 1.2rem;
+    letter-spacing: 0.16em;
+  }
 }
 
 .navbar-nav .nav-link {
@@ -1054,6 +1069,10 @@ button:focus {
   margin: 12px 0 0;
   opacity: 0.6;
   font-size: 0.9em;
+}
+
+.blog-page {
+  padding-top: 90px !important;
 }
 
 .blog-post-page {

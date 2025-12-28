@@ -4,7 +4,6 @@ import React, { useEffect, useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import Link from "next/link";
 import { CgGitFork } from "react-icons/cg";
@@ -21,8 +20,6 @@ import { CgFileDocument } from "react-icons/cg";
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
-
-  const logoSrc = typeof logo === "string" ? logo : (logo && logo.src) || "";
 
   useEffect(() => {
     const scrollHandler = () => {
@@ -50,8 +47,10 @@ function NavBar() {
     >
       <Container>
         <Link href="/" passHref legacyBehavior>
-          <Navbar.Brand className="d-flex">
-            <img src={logoSrc} className="img-fluid logo" alt="brand" />
+          <Navbar.Brand className="d-flex align-items-center">
+            <span className="logo">
+              ABU<span className="logo-accent">SYED</span>
+            </span>
           </Navbar.Brand>
         </Link>
         <Navbar.Toggle
