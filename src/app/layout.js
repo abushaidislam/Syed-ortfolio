@@ -3,6 +3,7 @@ import "../style.css";
 import "../App.css";
 import "../index.css";
 
+import { Analytics } from "@vercel/analytics/next";
 import RootShell from "../components/RootShell";
 
 export const metadata = {
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <RootShell>{children}</RootShell>
+        <Analytics />
       </body>
     </html>
   );
