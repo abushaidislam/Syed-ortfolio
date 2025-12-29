@@ -12,6 +12,40 @@ import TableOfContents from "../../../components/TableOfContents";
 import { mdxComponents } from "../../../components/mdx-components";
 import { getAllPosts, getPostBySlug } from "../../../lib/posts";
 
+<<<<<<< C:\Users\Asus\Desktop\Portfolio\src\app\blog\[slug]\page.js
+=======
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://abu-syed.vercel.app";
+
+export function generateMetadata({ params }) {
+  const post = getPostBySlug(params.slug);
+  const title = post.frontmatter?.title || "Blog";
+  const description =
+    post.frontmatter?.description || post.excerpt || "Blog post by Abu Syed.";
+  const thumbnail = post.frontmatter?.thumbnail || "/i.png";
+
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: `/blog/${params.slug}`,
+    },
+    openGraph: {
+      type: "article",
+      url: `${siteUrl}/blog/${params.slug}`,
+      title,
+      description,
+      images: [{ url: thumbnail }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [thumbnail],
+    },
+  };
+}
+
+>>>>>>> c:\Users\Asus\.windsurf\worktrees\Portfolio\Portfolio-1103aada\src\app\blog\[slug]\page.js
 export function generateStaticParams() {
   return getAllPosts().map((p) => ({ slug: p.slug }));
 }
@@ -52,6 +86,12 @@ export default async function BlogPostPage({ params }) {
                 className="blog-hero"
                 src={post.frontmatter.thumbnail}
                 alt={post.frontmatter.title || "Blog post thumbnail"}
+<<<<<<< C:\Users\Asus\Desktop\Portfolio\src\app\blog\[slug]\page.js
+=======
+                decoding="async"
+                loading="eager"
+                fetchPriority="high"
+>>>>>>> c:\Users\Asus\.windsurf\worktrees\Portfolio\Portfolio-1103aada\src\app\blog\[slug]\page.js
               />
             ) : null}
 

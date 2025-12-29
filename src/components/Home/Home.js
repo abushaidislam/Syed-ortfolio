@@ -51,6 +51,12 @@ function Home() {
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
+<<<<<<< C:\Users\Asus\Desktop\Portfolio\src\components\Home\Home.js
+=======
+                decoding="async"
+                loading="eager"
+                fetchPriority="high"
+>>>>>>> c:\Users\Asus\.windsurf\worktrees\Portfolio\Portfolio-1103aada\src\components\Home\Home.js
                 style={{ maxHeight: "450px" }}
               />
             </Col>

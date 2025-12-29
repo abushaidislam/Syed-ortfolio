@@ -23,7 +23,11 @@ function RootShell({ children }) {
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
         <ScrollToTop />
+<<<<<<< C:\Users\Asus\Desktop\Portfolio\src\components\RootShell.js
         {children}
+=======
+        <main id="main-content">{children}</main>
+>>>>>>> c:\Users\Asus\.windsurf\worktrees\Portfolio\Portfolio-1103aada\src\components\RootShell.js
         <Footer />
       </div>
     </>

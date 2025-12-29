@@ -185,7 +185,16 @@ function ResumeNew() {
             <div className="resume-side-card">
               <div className="resume-side-header">
                 <div className="resume-side-avatar">
+<<<<<<< C:\Users\Asus\Desktop\Portfolio\src\components\Resume\ResumeNew.js
                   <img src={myImg} alt={`${profile.name} avatar`} />
+=======
+                  <img
+                    src={myImg}
+                    alt={`${profile.name} avatar`}
+                    loading="lazy"
+                    decoding="async"
+                  />
+>>>>>>> c:\Users\Asus\.windsurf\worktrees\Portfolio\Portfolio-1103aada\src\components\Resume\ResumeNew.js
                 </div>
                 <div>
                   <div className="resume-side-name">{profile.name.toUpperCase()}</div>
@@ -218,7 +227,16 @@ function ResumeNew() {
                 </div>
 
                 <div className="resume-side-preview">
+<<<<<<< C:\Users\Asus\Desktop\Portfolio\src\components\Resume\ResumeNew.js
                   <img src={previewImage} alt="CV preview" loading="lazy" />
+=======
+                  <img
+                    src={previewImage}
+                    alt="CV preview"
+                    loading="lazy"
+                    decoding="async"
+                  />
+>>>>>>> c:\Users\Asus\.windsurf\worktrees\Portfolio\Portfolio-1103aada\src\components\Resume\ResumeNew.js
                 </div>
 
                 <Button variant="primary" onClick={handleDownload} className="resume-side-download">

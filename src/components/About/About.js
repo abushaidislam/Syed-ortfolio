@@ -34,7 +34,17 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
+<<<<<<< C:\Users\Asus\Desktop\Portfolio\src\components\About\About.js
             <img src={laptopImg} alt="about" className="img-fluid" />
+=======
+            <img
+              src={laptopImg}
+              alt="about"
+              className="img-fluid"
+              loading="lazy"
+              decoding="async"
+            />
+>>>>>>> c:\Users\Asus\.windsurf\worktrees\Portfolio\Portfolio-1103aada\src\components\About\About.js
           </Col>
         </Row>
 

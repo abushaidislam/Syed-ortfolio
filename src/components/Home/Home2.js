@@ -129,6 +129,11 @@ function Home2() {
                 src={myImg}
                 className="img-fluid"
                 alt={`${profile.name} avatar`}
+<<<<<<< C:\Users\Asus\Desktop\Portfolio\src\components\Home\Home2.js
+=======
+                loading="lazy"
+                decoding="async"
+>>>>>>> c:\Users\Asus\.windsurf\worktrees\Portfolio\Portfolio-1103aada\src\components\Home\Home2.js
                 style={{ maxWidth: "280px" }}
               />
             </Tilt>

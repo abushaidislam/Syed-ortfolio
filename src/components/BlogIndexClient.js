@@ -221,9 +221,17 @@ export default function BlogIndexClient({ posts }) {
           <div key={p.slug} className="blog-grid-item">
             <div className="project-card-view blog-post-card">
               <img
+<<<<<<< C:\Users\Asus\Desktop\Portfolio\src\components\BlogIndexClient.js
                 src={p.frontmatter?.thumbnail}
                 alt={p.frontmatter?.title || "Blog thumbnail"}
                 className="card-img-top blog-post-card-img"
+=======
+                src={p.frontmatter?.thumbnail || "/i.png"}
+                alt={p.frontmatter?.title || "Blog thumbnail"}
+                className="card-img-top blog-post-card-img"
+                loading="lazy"
+                decoding="async"
+>>>>>>> c:\Users\Asus\.windsurf\worktrees\Portfolio\Portfolio-1103aada\src\components\BlogIndexClient.js
               />
 
               <div className="blog-post-card-body">

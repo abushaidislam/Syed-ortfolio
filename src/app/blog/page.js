@@ -2,6 +2,17 @@ import { getAllPosts } from "../../lib/posts";
 import Particle from "../../components/Particle";
 import BlogIndexClient from "../../components/BlogIndexClient";
 
+<<<<<<< C:\Users\Asus\Desktop\Portfolio\src\app\blog\page.js
+=======
+export const metadata = {
+  title: "Blog",
+  description: "Writing on JavaScript, React, Next.js and modern web development.",
+  alternates: {
+    canonical: "/blog",
+  },
+};
+
+>>>>>>> c:\Users\Asus\.windsurf\worktrees\Portfolio\Portfolio-1103aada\src\app\blog\page.js
 export default function BlogIndexPage() {
   const posts = getAllPosts();
 

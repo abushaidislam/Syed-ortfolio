@@ -19,7 +19,17 @@ function ProjectCards(props) {
 
   return (
     <Card className="project-card-view">
+<<<<<<< C:\Users\Asus\Desktop\Portfolio\src\components\Projects\ProjectCards.js
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
+=======
+      <Card.Img
+        variant="top"
+        src={props.imgPath}
+        alt="card-img"
+        loading="lazy"
+        decoding="async"
+      />
+>>>>>>> c:\Users\Asus\.windsurf\worktrees\Portfolio\Portfolio-1103aada\src\components\Projects\ProjectCards.js
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>

@@ -34,6 +34,11 @@ export const mdxComponents = {
   img: (props) => (
     <img
       {...props}
+<<<<<<< C:\Users\Asus\Desktop\Portfolio\src\components\mdx-components.js
+=======
+      loading={props.loading || "lazy"}
+      decoding={props.decoding || "async"}
+>>>>>>> c:\Users\Asus\.windsurf\worktrees\Portfolio\Portfolio-1103aada\src\components\mdx-components.js
       style={{
         maxWidth: "100%",
         borderRadius: 12,

@@ -1,4 +1,5 @@
 {
+<<<<<<< C:\Users\Asus\Desktop\Portfolio\public\manifest.json
   "short_name": "React App",
   "name": "Create React App Sample",
   "icons": [
@@ -12,4 +13,19 @@
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
+=======
+  "short_name": "Abu Syed",
+  "name": "Abu Syed | Portfolio",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#0c0513",
+  "background_color": "#0c0513"
+>>>>>>> c:\Users\Asus\.windsurf\worktrees\Portfolio\Portfolio-1103aada\public\manifest.json
 }
