@@ -50,11 +50,9 @@ export default function BlogPostSearch({ posts }) {
           <div key={p.slug} className="blog-grid-item">
             <div className="project-card-view blog-post-card">
               <img
-                src={p.frontmatter?.thumbnail || "/i.png"}
+                src={p.frontmatter?.thumbnail}
                 alt={p.frontmatter?.title || "Blog thumbnail"}
                 className="card-img-top blog-post-card-img"
-                loading="lazy"
-                decoding="async"
               />
 
               <div className="blog-post-card-body">

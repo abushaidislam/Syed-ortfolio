@@ -51,9 +51,6 @@ function Home() {
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
-                decoding="async"
-                loading="eager"
-                fetchPriority="high"
                 style={{ maxHeight: "450px" }}
               />
             </Col>

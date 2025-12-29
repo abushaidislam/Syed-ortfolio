@@ -34,8 +34,6 @@ export const mdxComponents = {
   img: (props) => (
     <img
       {...props}
-      loading={props.loading || "lazy"}
-      decoding={props.decoding || "async"}
       style={{
         maxWidth: "100%",
         borderRadius: 12,
